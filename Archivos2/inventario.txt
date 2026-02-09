@@ -1,0 +1,2 @@
+Producto,Stock,Precio
+Computador	20	1000
