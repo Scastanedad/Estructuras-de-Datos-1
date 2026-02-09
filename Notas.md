@@ -107,3 +107,20 @@ while((LINEA = buffer.readLine()) != null){
     System.out.println(LINEA);
 }
 ```
+
+## Escritura en archivos en java
+
+Utilizamos ```FileWriter``` y ```BufferedWriter```, los cuales utilizaremos para escribir en el archivo. El objeto de bufferedwriter sera el que haga todo.
+
+```java
+FileWriter outFile = new FileWriter(rutaArchivo);
+BufferedWriter bw = new BufferedWriter (outFile);
+```
+
+Tenemos acceso a distintos comandos, como :
+
+```java
+bw.write();
+bw.newLine();
+```
+
