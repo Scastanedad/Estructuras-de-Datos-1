@@ -61,7 +61,6 @@ public class JavaApplication5 {
         }
     }
     
-    
     // Incrementa los precios en 5% leyendo secuencialmente y escribiendo a un archivo temporal
     private static void modificarArchivoInventario(String rutaArchivo) throws IOException {
         
@@ -127,7 +126,7 @@ public class JavaApplication5 {
         
     }
 
-     private static void LeerArchivo(String rutaArchivo){
+    private static void LeerArchivo(String rutaArchivo){
          String linea;
          try{
          FileReader lector = new FileReader(rutaArchivo);
@@ -164,9 +163,6 @@ public class JavaApplication5 {
             System.out.print("Seleccione una opción: ");
 
             opcionMenu = Integer.parseInt(sc.nextLine());
-            
-            
-
 
             try {
                 switch (opcionMenu){
@@ -194,7 +190,6 @@ public class JavaApplication5 {
                     case 4 -> System.out.println("Saliendo del programa...");
 
                     default -> System.out.println(" Opción inválida.");
-
                     
                 }
                    
